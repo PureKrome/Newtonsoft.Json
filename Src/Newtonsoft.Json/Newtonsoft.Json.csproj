@@ -4,9 +4,9 @@
     <TargetFrameworks Condition="'$(LibraryFrameworks)'!=''">$(LibraryFrameworks)</TargetFrameworks>
     <LangVersion>9.0</LangVersion>
     <!-- version numbers will be updated by build -->
-    <AssemblyVersion>14.0.0.0</AssemblyVersion>
-    <FileVersion>14.0.0</FileVersion>
-    <VersionPrefix>14.0.0</VersionPrefix>
+    <AssemblyVersion>12.1.0.0</AssemblyVersion>
+    <FileVersion>12.1.0</FileVersion>
+    <VersionPrefix>12.1.0</VersionPrefix>
     <VersionSuffix>togorv-1</VersionSuffix>
     <Authors>James Newton-King</Authors>
     <Company>Newtonsoft</Company>
