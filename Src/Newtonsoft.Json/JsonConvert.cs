@@ -1081,5 +1081,7 @@ namespace Newtonsoft.Json
         }
 #endif
         #endregion
+
+        public static DateTime HelloWorldTest() => DateTime.Now;
     }
 }

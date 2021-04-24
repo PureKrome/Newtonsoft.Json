@@ -1201,14 +1201,13 @@ namespace Newtonsoft.Json
 #if DEBUG
             ValidationUtils.ArgumentNotNull(objectType, nameof(objectType));
 #endif
-
             if (converters != null)
             {
                 for (int i = 0; i < converters.Count; i++)
                 {
                     JsonConverter converter = converters[i];
 
-                    if (converter.CanConvert(objectType))
+                    if (converter != null && converter.CanConvert(objectType))
                     {
                         return converter;
                     }
